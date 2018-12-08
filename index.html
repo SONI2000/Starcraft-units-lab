@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+ <head>
+            <meta charset="utf-8" />
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <title>Page Title</title>
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <link rel="stylesheet" type="text/css" media="screen" href="site.css" />
+            <script type="text/javascript"  src="./index.js"></script>
+ </head>
+<body>
+        <h2>Starcraft units</h2>
+        <p1 class="p1">select starcraft unit from list:</p1>
+    <div>
+        <ul id="units"  >
+        <li tabindex="1" id="1"  onclick="fmarine()">the marine </li>
+        <li tabindex="1" id="2"  onclick="fvalkyrie()">the valkyrie</li>
+        <li tabindex="1" id="3"  onclick="fsiegetank()">the siege tank</li>
+        </ul>
+    </div><br><br>
+
+    <p2 class="p2">Your selected unit description</p2>
+    <br>
+    <div class="div" id="display">
+            <p id="data">Discription format</p>
+            <p id="data">Unit type  #Unit id:Player name </p>
+    
+            
+    </div>
+    <br><br><br><br><br>
+    <button class="button" onclick="removeFromList()">RemoveFromList</button>
+    <br><br><br><br><br><br><br><br><br><br>
+
+<p2 class="p2">Enter the Id of tne unit to add into list</p2><br><br>
+
+<input id="idname" type="text"  name="addunit">
+<button class="button" onclick="addToList()">AddToList</button>
+
+
+ </body>
+</html>
